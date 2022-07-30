@@ -1,8 +1,6 @@
-# [codeRx] Playground
+# [codePharm] Playground
 
-## About
-
-This 'playground' is place for the codeRx organization to get familiar with collaborative coding.
+This 'playground' is place for the codePharm organization to get familiar with collaborative coding.
 
 ## MIT License
 
