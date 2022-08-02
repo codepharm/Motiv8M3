@@ -4,3 +4,29 @@ body {
 
 h1 {color:blue}
 
+/* removes default underline for links */
+a {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: darkmagenta;
+}
+
+/* mouse over link */
+a:hover {
+  color: skyblue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
