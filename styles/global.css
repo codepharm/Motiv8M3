@@ -2,7 +2,40 @@ body {
   background-color: plum;
 }
 
-h1 {color:blue}
+.hero-image {
+   display: flex;
+   justify-content: center;
+   /* height: 400px; */
+   width: 50px;
+}
+
+.hero-text {
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: rgb(244, 3, 224);
+
+}
+
+button {
+   font-weight: bolder;
+   font-size: large;
+   background-color: aqua;
+   padding: 1em;
+   position: center;
+   margin-left: 55em;
+   border-radius: 2em ;
+
+}
+
+.intro {
+   color: blue;
+}
+
 
 /* removes default underline for links */
 a {
