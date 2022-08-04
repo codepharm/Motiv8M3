@@ -63,3 +63,13 @@ a:active {
 }
 
 
+/* Contact Us Message Box */
+.fcf-form-control {
+  width: 500px;
+
+}
+
+/* Contact Us Name/Email Box */
+.fcf-name-email{
+  width: 200px;
+}
