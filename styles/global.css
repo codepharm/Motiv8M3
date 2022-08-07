@@ -12,10 +12,11 @@ a {
   position: absolute;
   top: 0;
   left: 0;
+  opacity: 0.5;
   /* background: url (""); */
   background-size: cover;
-  /* background-position-x: 20%; */
-  /* background-position-y: 20%; */
+  background-position-x: 20%;
+  background-position-y: 20%;
   width: 100%;
   height: 100vh;
   z-index: -1;
@@ -32,7 +33,7 @@ nav {
   position: fixed;
   right: 0;
   top: 0;
-  background: white;
+  background: rgb(48, 17, 17);
   height: 100vh;
   width: 50%;
   z-index: 999;
@@ -51,7 +52,7 @@ nav ul a {
   display: block;
 }
 nav ul a:hover {
-  background: rgb(235, 235, 235);
+  background: rgb(60, 53, 53);
 }
 nav .close {
   float: right;
@@ -77,6 +78,7 @@ h1 {
 
 .subhead {
   font-size: 1.4rem;
+  color: rgb(130, 17, 138);
 }
 
 section.hero {
@@ -125,7 +127,7 @@ section.hero .down-arrow path {
   .menu {
     display: none;
   }
-
+}
   nav {
     transform: translateX(0);
     position: unset;
@@ -142,7 +144,7 @@ section.hero .down-arrow path {
     margin: 0;
   }
   nav ul a {
-    color: white;
+    color: rgb(48, 42, 42);
     padding: 0.5em 1.5em;
     font-size: 0.9rem;
   }
@@ -162,7 +164,7 @@ section.hero .down-arrow path {
     color: black;
   }
   .logo span {
-    color: red;
+    color: rgb(130, 17, 138);
   }
 
   section.hero {
@@ -182,31 +184,20 @@ section.hero .down-arrow path {
     fill: black;
   }
 
-  .feature {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 3em;
-    margin-bottom: 8em;
-  }
-  .feature img {
-    width: 25em;
-  }
-  .feature .content {
-    text-align: right;
-    width: 25em;
-  }
-
-  .feature.left {
-    grid-template-areas: "left right";
-  }
-  .feature.left img {
-    grid-area: left;
-  }
-  .feature.left .content {
-    text-align: left;
-    width: 25em;
-    justify-self: left;
-  }
+.figure1 {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.figure2 {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.figure3 {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bolder;
 }
 @media only screen and (min-width: 1200px) {
   .wrapper {
