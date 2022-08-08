@@ -3,77 +3,26 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-a {
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-
-.hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  /* background: url (""); */
-  background-size: cover;
-  background-position-x: 20%;
-  background-position-y: 20%;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  -webkit-animation: introLoad 2s forwards;
-          animation: introLoad 2s forwards;
-}
-
-.logo {
-  color: white;
-  font-weight: bold;
-}
-
-nav {
-  position: fixed;
-  right: 0;
-  top: 0;
-  background: rgb(48, 17, 17);
-  height: 100vh;
-  width: 50%;
-  z-index: 999;
-  text-transform: uppercase;
-  transform: translateX(100%);
-  transition: transform 0.5s ease-in-out;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 8em;
-}
-nav ul a {
-  color: black;
-  padding: 0.75em 2em;
-  display: block;
-}
-nav ul a:hover {
-  background: rgb(60, 53, 53);
-}
-nav .close {
-  float: right;
-  margin: 2em;
-  width: 2.5em;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-}
-header svg {
-  width: 1.3em;
-  margin-top: -0.6em;
-  cursor: pointer;
-}
-
 h1 {
+  font-family: 'Poller One',
+    cursive;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
   font-size: 3rem;
   margin-top: 2em;
   line-height: 3.3rem;
+}
+
+p {
+  font-family: 'Poiret One', cursive;
+}
+
+div.row {
+  height: 10em;
+  display: flex;
+  align-items: center
 }
 
 .subhead {
@@ -81,13 +30,41 @@ h1 {
   color: rgb(130, 17, 138);
 }
 
+.hero-img {
+  left: unset;
+  right: 0;
+  width: 50%;
+  height: 42rem;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  -webkit-animation: introLoad 2s forwards;
+  animation: introLoad 2s forwards;
+}
+
 section.hero {
   color: white;
   height: 90vh;
-  -webkit-animation: moveDown 1s ease-in-out forwards;
-          animation: moveDown 1s ease-in-out forwards;
+  -webkit-animation: moveDown 3s ease-in-out forwards;
+  animation: moveDown 3s ease-in-out forwards;
   opacity: 0;
 }
+section.hero {
+  color: black;
+  height: auto;
+  width: 40%;
+  margin-bottom: 8em;
+}
+
+section.hero .subhead {
+  margin-bottom: 3em;
+}
+
 section.hero .down-arrow {
   stroke: white;
   position: absolute;
@@ -95,110 +72,67 @@ section.hero .down-arrow {
   width: 1em;
   animation: moveArrow 1s alternate-reverse infinite;
 }
+
 section.hero .down-arrow path {
   fill: white;
 }
 
-.more-info img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 11em;
+section.hero svg.down-arrow {
+  stroke: black;
+  position: unset;
 }
-.more-info .title {
+
+section.hero svg.down-arrow path {
+  fill: black;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background-color: #fff;
+  color: #ffacb7;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.2em;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-size: 1.5em;
   font-weight: bold;
-  font-size: 1.25rem;
-}
-.more-info .desc {
-  line-height: 1.5rem;
 }
 
-.open-nav {
-  transform: translateX(0%);
-}
-
-@media only screen and (min-width: 680px) {
-  body {
-    margin: 1.5em 5em;
-    font-family: "Poppins", sans-serif;
-  }
-}
-@media only screen and (min-width: 920px) {
-  .menu {
-    display: none;
-  }
-}
-  nav {
-    transform: translateX(0);
-    position: unset;
-    display: block;
-    width: auto;
-    height: auto;
-    background: none;
-  }
-  nav svg.close {
-    display: none;
-  }
-  nav ul {
-    display: flex;
-    margin: 0;
-  }
-  nav ul a {
-    color: rgb(48, 42, 42);
-    padding: 0.5em 1.5em;
-    font-size: 0.9rem;
-  }
-  nav ul a:hover {
-    background: none;
-    text-decoration: underline;
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
   }
 
-  .hero-img {
-    left: unset;
-    right: 0;
-    width: 50%;
-    height: 42rem;
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
   }
 
-  .logo {
-    color: black;
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
   }
-  .logo span {
-    color: rgb(130, 17, 138);
-  }
+}
 
-  section.hero {
-    color: black;
-    height: auto;
-    width: 40%;
-    margin-bottom: 8em;
-  }
-  section.hero .subhead {
-    margin-bottom: 3em;
-  }
-  section.hero svg.down-arrow {
-    stroke: black;
-    position: unset;
-  }
-  section.hero svg.down-arrow path {
-    fill: black;
-  }
+nav {
+  font-family: 'Raleway', sans-serif;
+}
 
-.figure1 {
-  width: 50%;
-  font-size: x-large;
-  font-weight: bolder;
+/* nav ul a:hover {
+  text-decoration: underline;     
+} */
+
+.logo {
+  color: black;
 }
-.figure2 {
-  width: 50%;
-  font-size: x-large;
-  font-weight: bolder;
+
+.logo span {
+  color: rgb(130, 17, 138);
 }
-.figure3 {
-  width: 50%;
-  font-size: x-large;
-  font-weight: bolder;
-}
+
 @media only screen and (min-width: 1200px) {
   .wrapper {
     width: 1200px;
@@ -210,57 +144,208 @@ section.hero .down-arrow path {
     gap: 0;
   }
 }
+
 @-webkit-keyframes introLoad {
   from {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+
   to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
+
 @keyframes introLoad {
   from {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-            clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
+
   to {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   }
 }
+
 @-webkit-keyframes moveArrow {
   from {
     transform: translateY(-30px);
   }
+
   to {
     transform: translateY(0);
   }
 }
+
 @keyframes moveArrow {
   from {
     transform: translateY(-30px);
   }
+
   to {
     transform: translateY(0);
   }
 }
+
 @-webkit-keyframes moveDown {
   from {
     transform: translateY(-100px);
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes moveDown {
   from {
     transform: translateY(-100px);
   }
+
   to {
     transform: translateY(0);
     opacity: 1;
   }
 }
+
+
+/* Note - These were either duplicates or they weren't necessary for the current content to display correctly. 
+However, I left them at the bottom of the page just in case we wanted to modify some elements.
+
+  nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: rgb(48, 17, 17);
+  height: 100vh;
+  width: 50%;
+  z-index: 999;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8em;
+}
+
+nav ul a {
+  color: rgb(61, 14, 92);
+  padding: 0.75em 2em;
+  display: block;
+}
+
+nav ul a:hover {
+  background: rgb(255, 69, 193);
+}
+
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 2.5em;
+} 
+.figure1 {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.figure2 {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.figure3 {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 680px) {
+  body {
+    margin: 1.5em 5em;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .menu {
+    display: none;
+  }
+} 
+
+.more-info img {
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 11em;
+}
+
+.more-info .title {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.more-info .desc {
+  line-height: 1.5rem;
+}
+
+/* .hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  -webkit-animation: introLoad 2s forwards;
+  animation: introLoad 2s forwards;
+} 
+
+.open-nav {
+  transform: translateX(0%);
+} 
+nav svg.close {
+  display: none;
+} 
+
+nav ul a:hover {
+  background: none;
+  text-decoration: underline;
+  color: rgb(255, 60, 223);
+}
+
+nav ul a {
+  color: rgb(75, 13, 110);
+  padding: 0.5em 1.5em;
+  font-size: 0.9rem;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+}
+
+nav {
+  font-family: 'Raleway', sans-serif;
+  transform: translateX(0);
+  position: unset;
+  display: block;
+  width: auto;
+  height: auto;
+  background: none;
+}
+
+*/
+
+
