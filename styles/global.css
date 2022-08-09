@@ -135,9 +135,10 @@ nav {
   .wrapper {
     width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow:hidden;
   }
 }
+
 
 @-webkit-keyframes introLoad {
   from {
