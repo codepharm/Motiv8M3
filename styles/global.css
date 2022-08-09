@@ -20,9 +20,7 @@ p {
 }
 
 div.row {
-  height: 10em;
-  display: flex;
-  align-items: center
+  align-items: center;
 }
 
 .subhead {
@@ -138,10 +136,6 @@ nav {
     width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-  }
-
-  .feature {
-    gap: 0;
   }
 }
 
