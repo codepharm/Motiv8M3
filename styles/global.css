@@ -19,6 +19,13 @@ p {
   font-family: 'Poiret One', cursive;
 }
 
+/* This media query works on all device dimensions except Samsung Galaxy S8+ and Galaxy Fold */
+@media only screen and (min-width: 269px) and (max-width: 991px) {
+  section.hero {
+    font-size: 10px;
+  }
+}
+
 div.row {
   align-items: center;
 }
@@ -119,24 +126,12 @@ nav {
   font-family: 'Raleway', sans-serif;
 }
 
-/* nav ul a:hover {
-  text-decoration: underline;     
-} */
-
 .logo {
   color: black;
 }
 
 .logo span {
   color: rgb(130, 17, 138);
-}
-
-@media only screen and (min-width: 1200px) {
-  .wrapper {
-    width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-  }
 }
 
 @-webkit-keyframes introLoad {
@@ -204,142 +199,4 @@ nav {
     opacity: 1;
   }
 }
-
-
-/* Note - These were either duplicates or they weren't necessary for the current content to display correctly. 
-However, I left them at the bottom of the page just in case we wanted to modify some elements.
-
-  nav {
-  position: fixed;
-  right: 0;
-  top: 0;
-  background: rgb(48, 17, 17);
-  height: 100vh;
-  width: 50%;
-  z-index: 999;
-  text-transform: uppercase;
-  transform: translateX(100%);
-  transition: transform 0.5s ease-in-out;
-}
-
-
-  nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 8em;
-}
-
-nav ul a {
-  color: rgb(61, 14, 92);
-  padding: 0.75em 2em;
-  display: block;
-}
-
-nav ul a:hover {
-  background: rgb(255, 69, 193);
-}
-
-nav .close {
-  float: right;
-  margin: 2em;
-  width: 2.5em;
-} 
-.figure1 {
-  width: 50%;
-  font-size: x-large;
-  font-weight: bolder;
-}
-
-.figure2 {
-  width: 50%;
-  font-size: x-large;
-  font-weight: bolder;
-}
-
-.figure3 {
-  width: 50%;
-  font-size: x-large;
-  font-weight: bolder;
-}
-
-@media only screen and (min-width: 680px) {
-  body {
-    margin: 1.5em 5em;
-    font-family: "Poppins", sans-serif;
-  }
-}
-
-@media only screen and (min-width: 920px) {
-  .menu {
-    display: none;
-  }
-} 
-
-.more-info img {
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  height: 11em;
-}
-
-.more-info .title {
-  font-weight: bold;
-  font-size: 1.25rem;
-}
-
-.more-info .desc {
-  line-height: 1.5rem;
-}
-
-/* .hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  background-size: cover;
-  background-position-x: 20%;
-  background-position-y: 20%;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
-  -webkit-animation: introLoad 2s forwards;
-  animation: introLoad 2s forwards;
-} 
-
-.open-nav {
-  transform: translateX(0%);
-} 
-nav svg.close {
-  display: none;
-} 
-
-nav ul a:hover {
-  background: none;
-  text-decoration: underline;
-  color: rgb(255, 60, 223);
-}
-
-nav ul a {
-  color: rgb(75, 13, 110);
-  padding: 0.5em 1.5em;
-  font-size: 0.9rem;
-}
-
-nav ul {
-  display: flex;
-  margin: 0;
-}
-
-nav {
-  font-family: 'Raleway', sans-serif;
-  transform: translateX(0);
-  position: unset;
-  display: block;
-  width: auto;
-  height: auto;
-  background: none;
-}
-
-*/
-
 
