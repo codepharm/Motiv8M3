@@ -20,11 +20,11 @@ p {
 }
 
 /* This media query works on all device dimensions except Samsung Galaxy S8+ and Galaxy Fold */
-@media only screen and (min-width: 269px) and (max-width: 991px) {
+/* @media only screen and (min-width: 269px) and (max-width: 991px) {
   section.hero {
     font-size: 10px;
   }
-}
+} */
 
 div.row {
   align-items: center;
