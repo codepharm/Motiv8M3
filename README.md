@@ -2,9 +2,15 @@
 
 This 'playground' is place for the codePharm organization to get familiar with collaborative coding.
 
+- All contributors please reach out and make a connection before making any pull requests.  Thank you! 🙏
+
+## Coding Journey Page
+
+- Write a short description about yourself, post an image that represents you, add links to your portfolio, github, etc...
+
 ## MIT License
 
-Copyright (c) 2022 Pete Chu <img src='https://codetracklift.github.io/codeTrackLift/logos/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
+Copyright (c) 2022 <img src='https://codetracklift.github.io/codeTrackLift/logos/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***[codePharm](https://codepharm.github.io/)***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
