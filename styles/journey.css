@@ -1,14 +1,23 @@
+.body {
+    background: url(/images/boatspace.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .view {
     width: 320px;
-    height: 200px;
+    /* height: 200px; */
     object-fit: contain;
     margin: 10px;
     float: left;
-    border: 10px solid #fff;
+    border: 10px solid rgb(255, 255, 255);
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
+    box-shadow: 4px 4px 6px #89dbe2;
     cursor: default;
     /* background: #fff url(../images/bgimg.jpg) no-repeat center center */
 }
@@ -16,7 +25,7 @@
 .view .mask,
 .view .content {
     width: 320px;
-    height: 200px;
+    /* height: 200px; */
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -60,7 +69,8 @@
 }
 
 .view a.info:hover {
-    box-shadow: 0 0 5px #000
+    background: #12d4e2;
+    box-shadow: 0 0 5px rgb(0, 0, 0)
 }
 
 
@@ -136,8 +146,6 @@ We can do that by using the scale transform and setting the opacity level: */
 /* Title (Our Names) directly beneath our image */
 .card h1 {
     position: relative;
-    padding: 10px 0px 0px 20px;
-    width: 90%;
     font-size: 24px;
 }
 
@@ -152,11 +160,15 @@ We can do that by using the scale transform and setting the opacity level: */
 } */
 
 
+.container {
+    width: 92%;
+    margin-top: 90px;
+}
+
 /* Alternative view of the card*/
 .card {
     width: 92%;
     max-width: 320px;
-    margin-top: 100px;
     /* margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -167,8 +179,12 @@ We can do that by using the scale transform and setting the opacity level: */
 }
 
 /* navbar */
+#nav1 {
+    opacity: 0.75;
+}
+
 .navbar .navbar-nav .nav-link:hover {
-    background-color: #fff;
+    background-color: rgb(70, 70, 70);
     color: #ffacb7;
 }
 
