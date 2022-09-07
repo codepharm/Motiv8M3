@@ -2,7 +2,7 @@
 
 This 'playground' is a place for the codePharm organization to get familiar with collaborative coding.
 
-- All contributors, please reach out and make a connection before making any pull requests.  Thank you! 🙏
+- All contributors, please reach out and make a connection before making any pull requests.  Thank you! 🙏 😄
 
 ## Coding Journey Page
 
