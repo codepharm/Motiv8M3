@@ -1,75 +1,7 @@
-/* navbar */
-#nav1 {
-    opacity: 1;
-}
-
-.navbar .navbar-nav .nav-link:hover {
-    background-color: rgb(70, 70, 70);
-    color: #ffacb7;
-}
-
-.navbar .navbar-nav .nav-link {
-    padding: 0.6em;
-    font-size: 1.2em;
-    transition: all 0.5s;
-}
-
-.navbar .navbar-brand {
-    padding: 0 0.6em;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-@media only screen and (min-width: 992px) {
-    .navbar {
-        padding: 0;
-    }
-
-    .navbar .navbar-nav .nav-link {
-        padding: 1em 0.7em;
-    }
-
-    .navbar .navbar-brand {
-        padding: 0 0.8em;
-    }
-}
-
-nav {
-    font-family: 'Raleway', sans-serif;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-/* Fake image */
-.postImg {
-    background: url(../images/textureDreamy.jpg) no-repeat center center fixed;
-    width: 100%;
-    padding: 20px;
-}
-
-.postText {
-    color:#000;
-}
-
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-
-    .leftcolumn,
-    .rightcolumn {
-        width: 100%;
-        padding: 0;
-    }
-}
-
-
 /*!
-* Start Bootstrap - Blog Home v5.0.8 (https://startbootstrap.com/template/blog-home)
+* Start Bootstrap - Blog Post v5.0.8 (https://startbootstrap.com/template/blog-post)
 * Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-home/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
