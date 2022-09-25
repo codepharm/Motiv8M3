@@ -4,29 +4,6 @@ body {
   text-align: center;
 }
 
-/* h1 {
-  font-family: 'Poller One',
-    cursive;
-} */
-
-/* h3 {
-  font-family: 'Poiret One', cursive;
-  font-size: 3rem;
-  margin-top: 2em;
-  line-height: 3.3rem;
-} */
-
-/* p {
-  font-family: 'Poiret One', cursive;
-} */
-
-/* This media query works on all device dimensions except Samsung Galaxy S8+ and Galaxy Fold */
-/* @media only screen and (min-width: 269px) and (max-width: 991px) {
-  section.hero {
-    font-size: 10px;
-  }
-} */
-
 div.row {
   align-items: center;
 }
@@ -90,41 +67,6 @@ section.hero svg.down-arrow {
 
 section.hero svg.down-arrow path {
   fill: black;
-}
-
-.navbar .navbar-nav .nav-link:hover {
-  background-color: #fff;
-  color: #ffacb7;
-}
-
-.navbar .navbar-nav .nav-link {
-  padding: 0.6em;
-  font-size: 1.2em;
-  transition: all 0.5s;
-}
-
-.navbar .navbar-brand {
-  padding: 0 0.6em;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-@media only screen and (min-width: 992px) {
-  .navbar {
-    padding: 0;
-  }
-
-  .navbar .navbar-nav .nav-link {
-    padding: 1em 0.7em;
-  }
-
-  .navbar .navbar-brand {
-    padding: 0 0.8em;
-  }
-}
-
-nav {
-  font-family: 'Raleway', sans-serif;
 }
 
 .logo {
