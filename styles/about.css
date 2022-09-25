@@ -18,14 +18,14 @@
 }
 
 
-/* Text styles */
+/* Text styles
 h2,
 h3,
 h4,
 p {
   /* font-family: 'Poiret One', cursive; */
-  font-weight: bold;
-}
+  /* font-weight: bold;
+} */ */
 
 /* Fade Effect */
 .fade-in {
