@@ -4,29 +4,6 @@ body {
   text-align: center;
 }
 
-/* h1 {
-  font-family: 'Poller One',
-    cursive;
-} */
-
-/* h3 {
-  font-family: 'Poiret One', cursive;
-  font-size: 3rem;
-  margin-top: 2em;
-  line-height: 3.3rem;
-} */
-
-/* p {
-  font-family: 'Poiret One', cursive;
-} */
-
-/* This media query works on all device dimensions except Samsung Galaxy S8+ and Galaxy Fold */
-/* @media only screen and (min-width: 269px) and (max-width: 991px) {
-  section.hero {
-    font-size: 10px;
-  }
-} */
-
 div.row {
   align-items: center;
 }
