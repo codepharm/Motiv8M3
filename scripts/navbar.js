@@ -31,45 +31,6 @@ const mainNavbar = `
                     </li>
                 </ul>
             </div>
-        </div>
-
-        
-        <style>     
-            .navbar .navbar-nav .nav-link:hover {
-            background-color: #fff;
-            color: #ffacb7;
-        }
-
-        .navbar .navbar-nav .nav-link {
-            padding: 0.6em;
-            font-size: 1.2em;
-            transition: all 0.5s;
-        }
-
-        .navbar .navbar-brand {
-            padding: 0 0.6em;
-            font-size: 1.5em;
-            font-weight: bold;
-        }
-
-        @media only screen and (min-width: 992px) {
-            .navbar {
-                padding: 0;
-            }
-
-            .navbar .navbar-nav .nav-link {
-                padding: 1em 0.7em;
-            }
-
-            .navbar .navbar-brand {
-                padding: 0 0.8em;
-            }
-        }
-
-        nav {
-            // font-family: 'Raleway', sans-serif;
-        }
-
-        </style>`;
+        </div>`;
 
 const injectMainNavbar = () => navbar.innerHTML = mainNavbar;
