@@ -1,15 +1,18 @@
 .body {
-    background: url(../images/boatspace.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color:rgb(17, 16, 16);
 }
 
+.container {
+    padding-top: 5rem;
+}
+
+.card {
+    width: 92%;
+    max-width: 320px;
+}
 
 .view {
     width: 320px;
-    /* height: 200px; */
     object-fit: contain;
     margin: 10px;
     float: left;
@@ -17,15 +20,13 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    box-shadow: 4px 4px 6px #89dbe2;
+    box-shadow: 4px 4px 6px #bfedf1;
     cursor: default;
-    /* background: #fff url(../images/bgimg.jpg) no-repeat center center */
 }
 
 .view .mask,
-.view .content {
+.view {
     width: 320px;
-    /* height: 200px; */
     position: absolute;
     overflow: hidden;
     top: 0;
@@ -49,9 +50,7 @@
 }
 
 .view p {
-    /* font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px; */
+    font-size: 14px;
     position: relative;
     color: #fff;
     padding: 10px 10px 10px 10px;
@@ -128,9 +127,6 @@ We can do that by using the scale transform and setting the opacity level: */
     opacity: 1;
 }
 
-
-/* Additional Features*/
-
 /* Gives each card a nice slim and sleek border outline*/
 .border {
     position: absolute;
@@ -143,37 +139,5 @@ We can do that by using the scale transform and setting the opacity level: */
     top: -6px;
 }
 
-/* Title (Our Names) directly beneath our image */
-.card h1 {
-    position: relative;
-    font-size: 24px;
-}
 
 
-
-/* An alternative view with extra space between cards*/
-/* .card-column {
-    width: 50%;
-    float: left;
-    padding: 4%;
-    box-sizing: border-box;
-} */
-
-
-.container {
-    width: 92%;
-    margin-top: 90px;
-}
-
-/* Alternative view of the card*/
-.card {
-    width: 92%;
-    max-width: 320px;
-    /* margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    background: #EB5160;
-    color: rgb(10, 10, 10);
-    cursor: pointer;
-    margin-bottom: 60px; */
-}
