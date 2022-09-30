@@ -1,145 +1,19 @@
+/* Best Practice: all styles here should apply throughout entire site */
 body {
-  margin: 1.5em;
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-}
-
-div.row {
-  align-items: center;
-}
-
-.subhead {
-  font-size: 1.4rem;
-  color: rgb(130, 17, 138);
-}
-
-.hero-img {
-  left: unset;
-  right: 0;
-  width: 50%;
-  height: 42rem;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  background-size: cover;
-  background-position-x: 20%;
-  background-position-y: 20%;
-  -webkit-animation: introLoad 2s forwards;
-  animation: introLoad 2s forwards;
-}
-
-section.hero {
-  color: white;
-  height: 90vh;
-  -webkit-animation: moveDown 3s ease-in-out forwards;
-  animation: moveDown 3s ease-in-out forwards;
-  opacity: 0;
-}
-section.hero {
-  color: black;
-  height: auto;
-  width: 40%;
-  margin-bottom: 8em;
-}
-
-section.hero .subhead {
-  margin-bottom: 3em;
-}
-
-section.hero .down-arrow {
-  stroke: white;
-  position: absolute;
-  bottom: 8em;
-  width: 1em;
-  animation: moveArrow 1s alternate-reverse infinite;
-}
-
-section.hero .down-arrow path {
-  fill: white;
-}
-
-section.hero svg.down-arrow {
-  stroke: black;
-  position: unset;
-}
-
-section.hero svg.down-arrow path {
-  fill: black;
-}
-
-.logo {
-  color: black;
-}
-
-.logo span {
-  color: rgb(130, 17, 138);
-}
-
-@-webkit-keyframes introLoad {
-  from {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
-
-  to {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  }
+  /* margin: 1.5em; */
+  /* text-align: center; */
 }
 
 @keyframes introLoad {
-  from {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  }
+    from {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
 
-  to {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  }
+    to {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
 }
 
-@-webkit-keyframes moveArrow {
-  from {
-    transform: translateY(-30px);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-@keyframes moveArrow {
-  from {
-    transform: translateY(-30px);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-@-webkit-keyframes moveDown {
-  from {
-    transform: translateY(-100px);
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes moveDown {
-  from {
-    transform: translateY(-100px);
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 

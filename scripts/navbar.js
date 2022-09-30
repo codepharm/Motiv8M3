@@ -67,7 +67,7 @@ const mainNavbar = `
         }
 
         nav {
-            font-family: 'Raleway', sans-serif;
+            // font-family: 'Raleway', sans-serif;
         }
 
         </style>`;
