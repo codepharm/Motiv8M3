@@ -1,8 +1,5 @@
 /* Best Practice: all styles here should apply throughout entire site */
-body {
-  /* margin: 1.5em; */
-  /* text-align: center; */
-}
+
 
 @keyframes introLoad {
     from {

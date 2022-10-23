@@ -66,7 +66,7 @@ section.hero svg.down-arrow path {
     fill: black;
 }
 
-
+/* 
 @-webkit-keyframes introLoad {
     from {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -77,7 +77,7 @@ section.hero svg.down-arrow path {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-}
+} */
 
 
 @-webkit-keyframes moveArrow {

@@ -8,6 +8,10 @@ function newQuote() {
         'The most difficult thing is the decision to act; the rest is merely tenacity. - Amelia Earhart',
         'I can\'t change the direction of the wind, but I can adjust my sails to always reach my destination. - Jimmy Dean',
         'Nothing is impossible.The word itself says \"I\'m possible!\" - Audrey Hepburn',
+        'Strong minds discuss ideas, average minds discuss events, weak minds discuss people - Socrates',
+        'The happiness of your life depends upon the quality of your thoughts. - Marcus Aurelius',
+        'We have two lives, and the second begins when we realize we only have one! - Confucius',
+        'You have power over your mind - not outside events. Realize this, and you will find strength. - Marcus Aurelius',
 
 
     ];
