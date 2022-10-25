@@ -12,21 +12,18 @@ div.row {
 }
 
 .hero-img {
-
-    width: 50%;
-    height: 42rem;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    opacity: 0.5;
-    background-size: cover;
+    animation: introLoad 2s forwards;
+    background-image: url(../images/mainpage.jpg);
     background-position-x: 20%;
     background-position-y: 20%;
-    -webkit-animation: introLoad 2s forwards;
-    animation: introLoad 2s forwards;
     background-size: cover;
-    height: 25rem;
-    background-image: url(../images/mainpage.jpg);
+    height: 42rem;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: -1;
+    -webkit-animation: introLoad 2s forwards;
 }
 
 section.hero {
