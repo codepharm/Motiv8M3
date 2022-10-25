@@ -1,6 +1,5 @@
 /* Best Practice: all styles here should apply throughout entire site */
 
-
 @keyframes introLoad {
     from {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);

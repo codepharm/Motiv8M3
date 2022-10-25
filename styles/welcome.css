@@ -26,6 +26,10 @@ div.row {
     -webkit-animation: introLoad 2s forwards;
 }
 
+#firstQuote {
+    margin-top: 20rem;
+}
+
 section.hero {
     color: white;
     height: 90vh;
@@ -66,8 +70,8 @@ section.hero svg.down-arrow path {
     fill: black;
 }
 
-/* 
-@-webkit-keyframes introLoad {
+
+/* @-webkit-keyframes introLoad {
     from {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
