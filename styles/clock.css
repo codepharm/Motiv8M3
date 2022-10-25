@@ -1,11 +1,7 @@
 #clock {
     display: flex;
     align-items: center;
-    height: 100vh;
     justify-content: center;
-    background: url("https://images.unsplash.com/photo-1657831696022-1d38a08f8c4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80");
-    background-size: cover;
-    overflow: hidden;
     gap: 0.25rem;
     opacity: 0.75;
 }
@@ -26,11 +22,13 @@
 }
 
 .time {
-    background-color: skyblue;
+    background-color: rgb(130, 17, 138);
     font-size: 2rem;
     padding: 0.75rem 0;
+    color: white;
 }
 
 .clockText {
-    background-color: magenta;
+    background-color: skyblue;
+    color: antiquewhite;
 }
