@@ -17,7 +17,7 @@ const updateClock = () => {
         }
         return result;
     }
-    console.log(h)
+    
     //h is a variable and is assigned to check(h);
     h = check(h)
     m = check(m)
