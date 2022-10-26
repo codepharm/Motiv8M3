@@ -6,9 +6,9 @@ const ampmEl = document.getElementById("ampm")
 //countdownn clock
 const updateClock = () => {
     //defines hour, minutes, second
-    let h = 24 - new Date().getHours();
-    let m = 60 - new Date().getMinutes();
-    let s = 60 - new Date().getSeconds();
+    let h = 23 - new Date().getHours();
+    let m = 59 - new Date().getMinutes();
+    let s = 59 - new Date().getSeconds();
     
     const check = (num) => {
         let result = num
