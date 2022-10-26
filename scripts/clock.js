@@ -23,7 +23,6 @@ const updateClock = () => {
     m = check(m)
     s = check(s)
 
-    // div.innerHTML = h + ":" + m + ":" + s;
     hourEl.innerText = h;
     minuteEl.innerText = m;
     secondEl.innerText = s;
