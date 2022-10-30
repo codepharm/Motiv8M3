@@ -18,7 +18,7 @@ div.row {
     background-position-y: 20%;
     background-size: cover;
     height: 42rem;
-    opacity: 0.5;
+    opacity: .75;
     position: absolute;
     top: 0;
     width: 50%;
@@ -27,7 +27,7 @@ div.row {
 }
 
 #firstQuote {
-    margin-top: 20rem;
+    margin-top: 5rem;
 }
 
 section.hero {
@@ -70,6 +70,15 @@ section.hero svg.down-arrow path {
     fill: black;
 }
 
+#seize-text {
+    color: rgb(4, 5, 5);
+    font-family: 'Old Standard TT', serif;
+    font-weight: bolder; 
+}
+
+.clockText {
+    font-weight: bolder;
+}
 
 /* @-webkit-keyframes introLoad {
     from {
