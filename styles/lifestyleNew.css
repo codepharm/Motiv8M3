@@ -7,11 +7,8 @@
     z-index: -100;
     left: 0px;
     top: 0px;
-    margin: 0;
-    
-
+    margin: 0;    
 }
-
 
 .recipe-title {
     display: flex;
@@ -19,8 +16,7 @@
     font-size:50px;
     font-weight: bold;
     background-color: rgb(144, 98, 98);
-    color:rgb(135, 128, 141);
-    
+    color:rgb(135, 128, 141);  
 }
 
 .ingredients-images {
@@ -43,12 +39,11 @@
 .recipe-photos img {
     max-width: 20rem;
 }
+
 .recipe-steps {
     display:flex;
     border-style: solid;
     border-radius: 10px;
     align-items: center;
-    line-height: 21px;
-    
+    line-height: 21px;    
 }
-
