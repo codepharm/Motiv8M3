@@ -1,8 +1,8 @@
 /* Best Practice: all styles here should apply throughout entire site */
 
-*, *:after, *:before {
+/* *, *:after, *:before {
     box-sizing: border-box;
-}
+} */
 
 html {
     overflow-x: hidden;
