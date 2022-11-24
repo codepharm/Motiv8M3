@@ -21,6 +21,7 @@
 
 .ingredients-images {
     display: flex;
+    flex-direction: row;
 }
 
 .recipe-headline {
@@ -36,6 +37,14 @@
     border-radius: 10px;
 }
 
+.ingredients-title {
+    display: flex;
+    font-size: medium;
+    font-weight: bolder;
+    justify-content: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
 .recipe-photos img {
     max-width: 20rem;
 }
