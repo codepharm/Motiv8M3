@@ -1,12 +1,13 @@
 /* Best Practice: all styles here should apply throughout entire site */
 
-/* *, *:after, *:before {
+*, *:after, *:before {
     box-sizing: border-box;
-} */
+}
 
 html {
     overflow-x: hidden;
 }
+
 @keyframes introLoad {
     from {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -18,5 +19,3 @@ html {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 }
-
-
