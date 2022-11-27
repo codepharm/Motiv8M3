@@ -1,0 +1,171 @@
+html {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../images/recipe-background.jpg);
+    background-size: cover;
+    
+}   
+
+.title { 
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    width: 105%;
+    transform: translate(-2%, -8%);
+    overflow-x: hidden;
+}
+
+.title h1 {
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+img {
+    border: 20px solid black;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    width: 15rem;
+}
+.white-background {
+    background-color: white;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    padding: 2rem 2rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.top div {
+    margin: auto;
+    padding-bottom: 1.0rem;
+}
+
+.top-left {
+    background-color: white;
+    border: 3px solid black;
+    font-size: large;
+    text-align: center;
+    min-width: 35%;
+    padding: 1.5em;
+}
+
+.top-left hr {
+    width: 100%;
+}
+
+.top-left table {
+    margin: auto;
+}
+
+.quantity {
+    padding-right: 0.5rem;
+}
+
+.top-right {
+    max-width: 30rem;
+}
+
+.top-right img {
+    transform: rotate(-15deg) translate(-6rem, -0rem);;
+}
+
+.splatter {
+    background-image: url(../images/splatter.svg);
+    background-size: cover;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding: 2.5rem;
+    position: relative;
+    z-index: 10;
+}
+
+.splatter div {
+    padding: 1rem;
+}
+
+.top-right .splatter {
+    margin-bottom: -6rem;
+    transform: rotate(-13deg) translate(-10rem, -5.5rem);
+    width: fit-content;
+}
+
+.middle, .bottom {
+    display: flex;
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 3rem;
+}
+
+.middle img {
+    transform: rotate(-10deg) translate(8rem, 5rem);
+}
+
+.middle .splatter {
+    margin-bottom: 10rem;
+    padding: 2rem 2.5rem;
+    position: relative;
+    transform: rotate(10deg) translate(1.8rem, -1rem);
+    width: fit-content;
+    z-index: 10;
+}
+
+.bottom img {
+    transform: rotate(15deg) translateX(-1rem);
+}
+
+.bottom .splatter {
+    margin-bottom: 3rem;
+    padding: 2.5rem 3rem;
+    position: relative;
+    transform: rotate(-15deg) translate(-15.5rem, -12rem);
+    width: fit-content;
+    z-index: 10;
+}
+
+.middle div,
+.bottom div {
+    margin: auto;
+    max-width: 5000px;
+}
+
+@media (max-width: 860px) {
+    .top {
+        flex-direction: column;
+    }
+    .middle, .bottom {
+        flex-direction: row;
+    }
+    
+
+    .top-right {
+        text-align: center;
+    }
+    .top-right img {
+        transform: rotate(8deg) translate(1rem, 1rem);
+    }
+    .top-right .splatter {
+        transform: rotate(-12deg) translate(-6rem, -6rem);
+    }
+
+    .middle img {
+        transform: rotate(-15deg) translate(7rem, 4rem);
+    }
+    .middle .splatter {
+        transform: rotate(15deg) translate(1rem, -1.3rem);
+    }
+}   
