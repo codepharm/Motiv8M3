@@ -13,7 +13,7 @@ const mainNavbar = `
                         <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="./about.html">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
@@ -24,9 +24,9 @@ const mainNavbar = `
                             Our Adventures
                         </a>
                         <ul class="dropdown-menu" style="background-color: #e2e2e2">
-                            <li><a class="dropdown-item" href="tackles.html">The Daily Tackles</a></li>
-                            <li><a class="dropdown-item" href="journey.html">The Coding Journey</a></li>
-                            <li><a class="dropdown-item" href="lifestyle.html">The Road to a Healthy Lifestyle</a></li>
+                            <li><a class="dropdown-item" href="./tackles.html">The Daily Tackles</a></li>
+                            <li><a class="dropdown-item" href="./journey.html">The Coding Journey</a></li>
+                            <li><a class="dropdown-item" href="./recipe.html">The Road to a Healthy Lifestyle</a></li>
                         </ul>
                     </li>
                 </ul>
