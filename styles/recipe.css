@@ -14,17 +14,19 @@ body {
     color: whitesmoke;
     font-size: 2rem;
     text-align: center;
-    width: 105%;
+    width: 102%;
     transform: translate(-2%, -8%);
     overflow-x: hidden;
 }
-
+ 
 .title h1 {
     display: flex;
-    font-size: 100px;
+    font-size: 60px;
+    margin-top: 85px;
     justify-content: center;
     overflow-x: hidden;
-    padding: 20px;
+    padding: 8px;
+    transform: scale(1.1) translateY(-8%);
 }
 
 img {
@@ -57,10 +59,10 @@ img {
 .top-left {
     background-color: white;
     border: 3px solid black;
-    font-size: large;
+    font-size: 1.125rem;
     text-align: center;
-    min-width: 35%;
-    padding: 1.5em;
+    min-width: 40%;
+    padding: 0 1rem;
 }
 
 .top-left hr {
@@ -108,18 +110,17 @@ img {
     display: flex;
     margin: 0 auto;
     max-width: 800px;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
 }
 
 .middle img {
-    transform: rotate(-10deg) translate(8rem, 5rem);
+    transform: rotate(-10deg) translateX(6rem);
 }
 
 .middle .splatter {
-    margin-bottom: 10rem;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 1.5rem;
     position: relative;
-    transform: rotate(10deg) translate(1.8rem, -1rem);
+    transform: rotate(10deg) translate(1.3rem, -2rem);
     width: fit-content;
     z-index: 10;
 }
@@ -140,15 +141,16 @@ img {
 .middle div,
 .bottom div {
     margin: auto;
-    max-width: 5000px;
+    max-width: 500px;
 }
 
 @media (max-width: 860px) {
-    .top {
+    .top,
+    .middle {
         flex-direction: column;
     }
-    .middle, .bottom {
-        flex-direction: row;
+    .bottom {
+        flex-direction: column-reverse;
     }
     
 
@@ -163,9 +165,16 @@ img {
     }
 
     .middle img {
-        transform: rotate(-15deg) translate(7rem, 4rem);
+        transform: rotate(-15deg) translate(-1rem, 4.5rem);
     }
     .middle .splatter {
-        transform: rotate(15deg) translate(1rem, -1.3rem);
+        transform: rotate(15deg) translate(-5.3rem, 4rem);
+    }
+
+    .bottom img {
+        transform: rotate(8deg) translateX(-1.1rem);
+    }
+    .bottom .splatter{
+        transform: rotate(-12deg) translate(-8rem, 5rem);
     }
 }   
