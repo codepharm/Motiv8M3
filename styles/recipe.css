@@ -14,18 +14,18 @@ body {
     color: whitesmoke;
     font-size: 2rem;
     text-align: center;
-    width: 104%;
+    width: 102%;
     transform: translate(-2%, -8%);
     overflow-x: hidden;
 }
  
 .title h1 {
-    /* display: flex; */
-    font-size: 80px;
-    /* margin-top: 65px; */
-    /* justify-content: center; */
+    display: flex;
+    font-size: 60px;
+    margin-top: 85px;
+    justify-content: center;
     overflow-x: hidden;
-    padding: 12px;
+    padding: 8px;
     transform: scale(1.1) translateY(-8%);
 }
 
@@ -110,7 +110,7 @@ img {
     display: flex;
     margin: 0 auto;
     max-width: 800px;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
 }
 
 .middle img {
@@ -118,10 +118,9 @@ img {
 }
 
 .middle .splatter {
-    margin-bottom: 10rem;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 1.5rem;
     position: relative;
-    transform: rotate(10deg) translate(1.8rem, -1rem);
+    transform: rotate(10deg) translate(1.3rem, -2rem);
     width: fit-content;
     z-index: 10;
 }
@@ -166,16 +165,16 @@ img {
     }
 
     .middle img {
-        transform: rotate(-15deg) translate(7rem, 4rem);
+        transform: rotate(-15deg) translate(-1rem, 4.5rem);
     }
     .middle .splatter {
-        transform: rotate(15deg) translate(1.5rem, -1.3rem);
+        transform: rotate(15deg) translate(-5.3rem, 4rem);
     }
 
     .bottom img {
-        transform: rotate(8deg) translateX(0rem);
+        transform: rotate(8deg) translateX(-1.1rem);
     }
     .bottom .splatter{
-        transform: rotate(-12deg) translate(-10rem, 10rem);
+        transform: rotate(-12deg) translate(-8rem, 5rem);
     }
 }   
