@@ -14,17 +14,19 @@ body {
     color: whitesmoke;
     font-size: 2rem;
     text-align: center;
-    width: 105%;
+    width: 104%;
     transform: translate(-2%, -8%);
     overflow-x: hidden;
 }
-
+ 
 .title h1 {
-    display: flex;
-    font-size: 100px;
-    justify-content: center;
+    /* display: flex; */
+    font-size: 80px;
+    /* margin-top: 65px; */
+    /* justify-content: center; */
     overflow-x: hidden;
-    padding: 20px;
+    padding: 12px;
+    transform: scale(1.1) translateY(-8%);
 }
 
 img {
@@ -57,10 +59,10 @@ img {
 .top-left {
     background-color: white;
     border: 3px solid black;
-    font-size: large;
+    font-size: 1.125rem;
     text-align: center;
-    min-width: 35%;
-    padding: 1.5em;
+    min-width: 40%;
+    padding: 0 1rem;
 }
 
 .top-left hr {
@@ -112,7 +114,7 @@ img {
 }
 
 .middle img {
-    transform: rotate(-10deg) translate(8rem, 5rem);
+    transform: rotate(-10deg) translateX(6rem);
 }
 
 .middle .splatter {
@@ -140,15 +142,16 @@ img {
 .middle div,
 .bottom div {
     margin: auto;
-    max-width: 5000px;
+    max-width: 500px;
 }
 
 @media (max-width: 860px) {
-    .top {
+    .top,
+    .middle {
         flex-direction: column;
     }
-    .middle, .bottom {
-        flex-direction: row;
+    .bottom {
+        flex-direction: column-reverse;
     }
     
 
@@ -166,6 +169,13 @@ img {
         transform: rotate(-15deg) translate(7rem, 4rem);
     }
     .middle .splatter {
-        transform: rotate(15deg) translate(1rem, -1.3rem);
+        transform: rotate(15deg) translate(1.5rem, -1.3rem);
+    }
+
+    .bottom img {
+        transform: rotate(8deg) translateX(0rem);
+    }
+    .bottom .splatter{
+        transform: rotate(-12deg) translate(-10rem, 10rem);
     }
 }   
